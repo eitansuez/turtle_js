@@ -1,0 +1,17 @@
+TODO:
+
+> Figure out the deal with colors in javascript;  perhaps use a library.
+> Support animating drawing and configuring animation speed
+> Put a wait indicator while evaluating/running shell program
+---
+> Figure out how to bind keyboard shortcut (cmd|ctl-enter) directly onto editor component
+> how to make caret visible when has the focus?
+> Always put focus on editor component
+> Can one add displaying of line numbers to codemirror editor? -- No.
+---
+> Post finished work online
+
+
+
+
+

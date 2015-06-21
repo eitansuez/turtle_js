@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script type="text/javascript" src="prototype-1.6.0.3.js"></script>
+  <script type="application/x-javascript" src="codemirror/js/codemirror.js"></script>
+  <script type="application/x-javascript" src="turtle.js"></script>
+</head>
+<body>
+
+  <div class="title">CanvasTurtle</div>
+
+  <div id="samples">
+    <b>Samples</b>: <a href="samples/square_roll.js">Roll</a> | <a href="samples/snowflake.js">Snow Flake</a> |
+                    <a href="samples/arcs.js">Arcs</a> | <a href="samples/smell.js">Smell</a> |
+                    <a href="samples/branch.js">Branch</a> | <a href="samples/polyside.js">PolySide</a> |
+                    <a href="samples/garden.js">Garden</a> | <a href="samples/polyangle.js">PolyAngle</a> |
+                    <a href="samples/inspi.js">Spiral</a> | <a href="samples/crazybob.js">CrazyBob</a>
+  </div>
+
+  <table><tr><td>
+     <canvas id="canvas" width="500" height="500"></canvas>
+  </td><td>
+     <div id="codebox">
+       <textarea rows="30" cols="60" id="editBox"></textarea>
+     </div>
+  </td></tr></table>
+
+  <div id="buttons">
+    <button id="runBtn">Run</button> <span class="small" />(cmd-e)</span> 
+    <button id="runSelectionBtn">Run Selection</button> <span class="small" />(cmd-shift-e)</span> 
+  </div>
+  
+  <div id="footer">
+    <ul>
+      <li>CanvasTurtle by Eitan Suez</li>
+      <li>Tested w/Firefox 3</li>
+      <li>Code Editor:  Thanks to <a href="http://marijn.haverbeke.nl/codemirror/manual.html">CodeMirror</a></li>
+    </ul>
+  </div>
+  
+  <div id="hide">
+    <img id="sprite" src="bug_red.png" />
+  </div>
+
+</body>
+</html>

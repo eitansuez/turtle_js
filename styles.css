@@ -1,0 +1,37 @@
+#canvas
+{
+    border: thin solid black;
+}
+#codebox
+{
+    border: thin solid black;
+}
+#hide
+{
+    visibility: hidden;
+}
+body
+{
+	font-family: sans-serif;
+}
+.title
+{
+	border-bottom: thin solid black;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0.4em;
+}
+#samples
+{
+	margin: 5px;
+}
+#footer
+{
+	border-top: thin solid black;
+	margin-top: 1em;
+	font-size: 0.7em;
+}
+.small
+{
+  font-size: 0.7em;
+}
